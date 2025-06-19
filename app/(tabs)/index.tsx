@@ -32,7 +32,12 @@ const MovieDetailsScreen = () => {
     {
       id: 2,
       name: 'Halle Berry',
-      image: 'https://www.paramountshop.com/cdn/shop/files/spongebob-squarepants-life-sized-cardboard-cutout-standee-725187_grande.jpg?v=1718292084'
+      image: 'https://m.media-amazon.com/images/M/MV5BMjIxNzc5MDAzOV5BMl5BanBnXkFtZTcwMDUxMjMxMw@@._V1_FMjpg_UX1000_.jpg'
+    },
+    {
+    id: 3,
+      name: 'Chad Stahelski',
+      image: 'https://cdn.prod.website-files.com/652e1d0f532c272ff40207d0/654a348668add8c89454af34_Chad%20Stahelski.jpg'
     }
   ];
 
@@ -296,7 +301,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   posterContainer: {
-    height: 500,
+    height: 700,
     position: 'relative',
   },
   gradientBackground: {
@@ -304,11 +309,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  posterImage: {
-    width: 200,
-    height: 300,
-    borderRadius: 15,
-  },
+posterImage: {
+  width: '80%',
+  height: 500,
+  borderRadius: 20,
+},
+
   movieInfo: {
     padding: 20,
     backgroundColor: '#000',
